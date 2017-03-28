@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2017-03-28T05:46:01Z" finished-at="2017-03-28T05:46:01Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="2685" started-at="2017-03-28T05:45:21Z" finished-at="2017-03-28T05:45:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2685" started-at="2017-03-28T05:45:21Z" finished-at="2017-03-28T05:45:24Z">
+      <class name="com.training.test.LoginPageTest">
+        <test-method status="PASS" signature="BeforSuite()[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="BeforSuite" is-config="true" duration-ms="7226" started-at="2017-03-27T22:45:14Z" finished-at="2017-03-27T22:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforSuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="before" is-config="true" duration-ms="260" started-at="2017-03-27T22:45:21Z" finished-at="2017-03-27T22:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testBreadCrumbs()[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="testBreadCrumbs" duration-ms="1397" started-at="2017-03-27T22:45:21Z" finished-at="2017-03-27T22:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBreadCrumbs -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="testLogin" duration-ms="240" started-at="2017-03-27T22:45:23Z" data-provider="login" finished-at="2017-03-27T22:45:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a@a.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="testLogin" duration-ms="122" started-at="2017-03-27T22:45:23Z" data-provider="login" finished-at="2017-03-27T22:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[x@y.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="testLogin" duration-ms="129" started-at="2017-03-27T22:45:24Z" data-provider="login" finished-at="2017-03-27T22:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[m@p.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="testLogin" duration-ms="120" started-at="2017-03-27T22:45:24Z" data-provider="login" finished-at="2017-03-27T22:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q@s.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.LoginPageTest@31f9b85e]" name="afterSuite" is-config="true" duration-ms="83" started-at="2017-03-27T22:45:24Z" finished-at="2017-03-27T22:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="8367" started-at="2017-03-28T05:45:05Z" finished-at="2017-03-28T05:45:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8367" started-at="2017-03-28T05:45:05Z" finished-at="2017-03-28T05:45:14Z">
+      <class name="com.training.test.HomePageTest">
+        <test-method status="PASS" signature="BeforSuite()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="BeforSuite" is-config="true" duration-ms="9558" started-at="2017-03-27T22:44:56Z" finished-at="2017-03-27T22:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforSuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="before" is-config="true" duration-ms="208" started-at="2017-03-27T22:45:05Z" finished-at="2017-03-27T22:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testDemoClick()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="testDemoClick" duration-ms="3126" started-at="2017-03-27T22:45:06Z" finished-at="2017-03-27T22:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemoClick -->
+        <test-method status="PASS" signature="testFaqClick()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="testFaqClick" duration-ms="1396" started-at="2017-03-27T22:45:09Z" finished-at="2017-03-27T22:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFaqClick -->
+        <test-method status="PASS" signature="testLoginClick()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="testLoginClick" duration-ms="1251" started-at="2017-03-27T22:45:10Z" finished-at="2017-03-27T22:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginClick -->
+        <test-method status="PASS" signature="testResourcesClick()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="testResourcesClick" duration-ms="2272" started-at="2017-03-27T22:45:11Z" finished-at="2017-03-27T22:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResourcesClick -->
+        <test-method status="PASS" signature="testVideoElement()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="testVideoElement" duration-ms="88" started-at="2017-03-27T22:45:14Z" finished-at="2017-03-27T22:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVideoElement -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.HomePageTest@7ee8290b]" name="afterSuite" is-config="true" duration-ms="134" started-at="2017-03-27T22:45:14Z" finished-at="2017-03-27T22:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="Suite (5)" duration-ms="1892" started-at="2017-03-28T05:45:59Z" finished-at="2017-03-28T05:46:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1892" started-at="2017-03-28T05:45:59Z" finished-at="2017-03-28T05:46:00Z">
+      <class name="com.training.test.InfoPageTest">
+        <test-method status="PASS" signature="BeforSuite()[pri:0, instance:com.training.test.InfoPageTest@6236eb5f]" name="BeforSuite" is-config="true" duration-ms="7109" started-at="2017-03-27T22:45:51Z" finished-at="2017-03-27T22:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforSuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.training.test.InfoPageTest@6236eb5f]" name="before" is-config="true" duration-ms="1805" started-at="2017-03-27T22:45:59Z" finished-at="2017-03-27T22:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testCount()[pri:0, instance:com.training.test.InfoPageTest@6236eb5f]" name="testCount" duration-ms="83" started-at="2017-03-27T22:46:00Z" finished-at="2017-03-27T22:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCount -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.InfoPageTest@6236eb5f]" name="afterSuite" is-config="true" duration-ms="102" started-at="2017-03-27T22:46:00Z" finished-at="2017-03-27T22:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.test.InfoPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (5) -->
+  <suite name="Suite (4)" duration-ms="2521" started-at="2017-03-28T05:45:49Z" finished-at="2017-03-28T05:45:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2521" started-at="2017-03-28T05:45:49Z" finished-at="2017-03-28T05:45:51Z">
+      <class name="com.training.test.ResourcesPageTest">
+        <test-method status="PASS" signature="BeforSuite()[pri:0, instance:com.training.test.ResourcesPageTest@21b2e768]" name="BeforSuite" is-config="true" duration-ms="7299" started-at="2017-03-27T22:45:42Z" finished-at="2017-03-27T22:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforSuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.training.test.ResourcesPageTest@21b2e768]" name="before" is-config="true" duration-ms="2512" started-at="2017-03-27T22:45:49Z" finished-at="2017-03-27T22:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:com.training.test.ResourcesPageTest@21b2e768]" name="testTitle" duration-ms="7" started-at="2017-03-27T22:45:51Z" finished-at="2017-03-27T22:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.ResourcesPageTest@21b2e768]" name="afterSuite" is-config="true" duration-ms="86" started-at="2017-03-27T22:45:51Z" finished-at="2017-03-27T22:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.test.ResourcesPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (4) -->
+  <suite name="Suite (3)" duration-ms="1736" started-at="2017-03-28T05:45:40Z" finished-at="2017-03-28T05:45:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1736" started-at="2017-03-28T05:45:40Z" finished-at="2017-03-28T05:45:41Z">
+      <class name="com.training.test.FAQPageTest">
+        <test-method status="PASS" signature="BeforSuite()[pri:0, instance:com.training.test.FAQPageTest@313b2ea6]" name="BeforSuite" is-config="true" duration-ms="7050" started-at="2017-03-27T22:45:33Z" finished-at="2017-03-27T22:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforSuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.training.test.FAQPageTest@313b2ea6]" name="before" is-config="true" duration-ms="1671" started-at="2017-03-27T22:45:40Z" finished-at="2017-03-27T22:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testCountQues()[pri:0, instance:com.training.test.FAQPageTest@313b2ea6]" name="testCountQues" duration-ms="35" started-at="2017-03-27T22:45:41Z" finished-at="2017-03-27T22:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountQues -->
+        <test-method status="PASS" signature="testCountSocial()[pri:0, instance:com.training.test.FAQPageTest@313b2ea6]" name="testCountSocial" duration-ms="27" started-at="2017-03-27T22:45:41Z" finished-at="2017-03-27T22:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountSocial -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.FAQPageTest@313b2ea6]" name="afterSuite" is-config="true" duration-ms="82" started-at="2017-03-27T22:45:41Z" finished-at="2017-03-27T22:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.test.FAQPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (3) -->
+  <suite name="Suite (2)" duration-ms="1927" started-at="2017-03-28T05:45:31Z" finished-at="2017-03-28T05:45:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1927" started-at="2017-03-28T05:45:31Z" finished-at="2017-03-28T05:45:33Z">
+      <class name="com.training.test.PortalPageTest">
+        <test-method status="PASS" signature="BeforSuite()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="BeforSuite" is-config="true" duration-ms="6745" started-at="2017-03-27T22:45:24Z" finished-at="2017-03-27T22:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforSuite -->
+        <test-method status="PASS" signature="testFooterBar()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="testFooterBar" duration-ms="241" started-at="2017-03-27T22:45:31Z" finished-at="2017-03-27T22:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterBar -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-03-27T22:45:31Z" finished-at="2017-03-27T22:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testHomeClick()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="testHomeClick" duration-ms="33" started-at="2017-03-27T22:45:31Z" finished-at="2017-03-27T22:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeClick -->
+        <test-method status="PASS" signature="testInfoClick()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="testInfoClick" duration-ms="1553" started-at="2017-03-27T22:45:31Z" finished-at="2017-03-27T22:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInfoClick -->
+        <test-method status="PASS" signature="testIsLogoPresent()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="testIsLogoPresent" duration-ms="39" started-at="2017-03-27T22:45:32Z" finished-at="2017-03-27T22:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsLogoPresent -->
+        <test-method status="PASS" signature="testNavItems()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="testNavItems" duration-ms="30" started-at="2017-03-27T22:45:33Z" finished-at="2017-03-27T22:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavItems -->
+        <test-method status="PASS" signature="testSocialIcons()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="testSocialIcons" duration-ms="21" started-at="2017-03-27T22:45:33Z" finished-at="2017-03-27T22:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialIcons -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.PortalPageTest@7a675056]" name="afterSuite" is-config="true" duration-ms="84" started-at="2017-03-27T22:45:33Z" finished-at="2017-03-27T22:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.test.PortalPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+</testng-results>
